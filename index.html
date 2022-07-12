@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muebles Juampy</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- inicio header -->
+    <div class="section-container header-container">
+      <header class="header">
+        <div class="logo-container">
+          <img src="./img/logo.png" alt="logo" />
+        </div>
+        <nav class="navbar">
+          <label for="toggle-menu"><i class="fas fa-bars"></i></label>
+          <input type="checkbox" id="toggle-menu" />
+          <ul class="navbar-list">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#muestras">Catalogo</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="assets/Entrar.html">ENTRAR</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <!-- Fin header  -->
+ <!-- inicio hero -->
+ <div class="section-container">
+    <section class="section" id="inicio">
+      <div class="description-container">
+        <div class="text-container">
+          <h1>Productos de Carpinteria</h1>
+          <p>La carpintería es el oficio de trabajar la madera para crear objetos útiles y agradables al ser humano. Los productos suelen ser muebles como mesas, elementos de construcción como puertas, herramientas como martillos y otros. El trabajo sobre la madera incluye principalmente cortar, esculpir, pulir, unir, impermeabilizar ​y otros.</p>
+        </div>
+        <div class="button-container">
+          <button>Ver Muestras</button>
+        </div>
+      </div>
+      <div class="hero-img"></div>
+    </section>
+  </div>
+  <!-- Fin hero  -->
+  <!-- Inicio muestras  -->
+  <div class="section-container">
+    <section class="section" id="muestras">
+      <div class="title-container">
+        <h2 class="section-title">Muestras</h2>
+      </div>
+      <div class="speaker-cards-container">
+        <div class="speakers-card">
+          <div class="speaker-cards-img"></div>
+          <div class="speakers-content">
+            <h3>Silla Sofia</h3>
+            <p class="section-p-small">Silla de pino encolada y espigada</p>
+          </div>
+        </div>
+        <div class="speakers-card">
+          <div class="speaker-cards-img"></div>
+          <div class="speakers-content">
+            <h3>Cama Simple</h3>
+            <p class="section-p-small">Cama simple 1.20m</p>
+          </div>
+        </div>
+        <div class="speakers-card">
+          <div class="speaker-cards-img"></div>
+          <div class="speakers-content">
+            <h3>Futon 3 Cuerpos </h3>
+            <p class="section-p-small">Futon de 3 cuerpos que se hace cama de 1.20m</p>
+          </div>
+        </div>
+        <div class="speakers-card">
+          <div class="speaker-cards-img"></div>
+          <div class="speakers-content">
+            <h3>Mesita Ratona</h3>
+            <p class="section-p-small">Mesita ratona con especiero</p>
+          </div>
+        </div>
+        <div class="speakers-card">
+          <div class="speaker-cards-img"></div>
+          <div class="speakers-content">
+            <h3>Ropero de 3 Puertas</h3>
+            <p class="section-p-small">Ropero de 1.20m con estantes y perchero</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- Fin muestras  -->
+  <!-- Contactanos -->
+
+  <div class="section-container contact">
+    <section class="section" id="contacto">
+        <div class="contact-container-int">
+            <div class="container-left">
+
+                <div class="top">
+                    <div class="top-left">
+                        <h2>Contactanos</h2>
+                    </div>
+                </div>
+
+                <form action="#" class="contact-form">
+                    <div class="nom-tel">
+                        <div class="form-group mb-3">
+                            <label class="label" for="name">nombre</label>
+                            <input type="text" class="form-control" required="">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label class="label" for="telefono">telefono</label>
+                            <input type="tel" class="form-control" required="">
+                        </div>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label class="label" for="email">mail</label>
+                        <input type="email" class="form-control" required="">
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label class="label" for="mail">mensaje</label>
+                        <textarea name="mensaje" id="" cols="30" rows="5"></textarea>
+                    </div>
+
+                    <div class="form-group button-center">
+                        <button type="submit" class="form-control btn btn-primary submit px-3"><a
+                                href="#">Enviar</a></button>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="container-right">
+                <h2>Veni a Nuestro Showroom </h2>
+                <div class="contact-info">
+                     <div class="about-us">
+                        <p class="dato">Dirección:</p>
+                        <p>Calle Falsa 123</p>
+                    </div>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13574.632234834744!2d-60.5192381!3d-31.725234399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1656712438621!5m2!1ses-419!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    </section>
+</div>
+<footer>
+  <div class="content">
+    <div class="left box">
+      <div class="upper">
+        <div class="topic">Sobre nosotros</div>
+        <p>Somos una fabrica familiar con 10 años de experiencia en el rubro de la madera</p>
+      </div>
+      <div class="lower">
+        <div class="topic">Contactanos</div>
+        <div class="phone">
+          <a href="#"><i class="fas fa-phone-volume"></i>+5411111132</a>
+        </div>
+        <div class="email">
+          <a href="#"><i class="fas fa-envelope"></i>abc@gmail.com</a>
+        </div>
+      </div>
+    </div>
+    <div class="middle box">
+      <div class="topic">Otros Servicios</div>
+      <div><a href="#">Reparacion</a></div>
+      <div><a href="#">Lustrado</a></div>
+      <div><a href="#">Encerado</a></div>
+      <div><a href="#">Fabricacion</a></div>
+      <div><a href="#">Envios</a></div>
+      <div><a href="#">Y mucho mas</a></div>
+    </div>
+    <div class="right box">
+      <div class="topic">Suscribite</div>
+      <form action="#">
+        <input type="text" placeholder="Ingresar Email">
+        <input type="submit" name="" value="Enviar">
+        <div class="media-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="bottom">
+    <p>Copyright © 2022 <a href="#">Nucba</a> All rights reserved</p>
+  </div>
+</footer>
+
+</body>
+</html>
