@@ -32,6 +32,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: var(--black);
+  margin: 0px;
   }
   
   .section {
@@ -39,7 +40,7 @@ body {
     display: flex;    
     justify-content:center;
     align-items: center;
-    padding: 70px 0px;
+    padding: 20px 0px;
     width: 95%;
     max-width: 1300px;
     margin: 0 auto;
@@ -88,7 +89,7 @@ body {
     height: 100%;
     width: auto;
     display: flex;
-    margin: 100px;
+    margin: 50px;
     
   }
   
@@ -144,12 +145,13 @@ body {
   
     .navbar-list {
       position: absolute;
-      background-color: var(--black);
+      background-color: darkcyan;
       flex-direction: column;
+      border-radius: 15px;
       top: 100px;
-      right: 0;
-      width: 100%;
-      height: calc(100vh - 100px);
+      right: auto;
+      width: auto;
+      height: 300px;
       z-index: 9999;
       display: none;
     }
@@ -317,11 +319,10 @@ body {
   
   .speaker-cards-img {
     position: absolute;
-    top: -50px;
-    width: 100px;
-    height: 100px;
+    top: -100px;
+    width: 150px;
+    height: 150px;
     border-radius: 10%;
-    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -548,10 +549,7 @@ iframe {
     width: 90%;
   }
 
-  .contact {
-    padding: 150px 0px;
-  }
-
+ 
   #contactid {
     flex-wrap: wrap;
     gap: 20px;
@@ -570,6 +568,7 @@ iframe {
     justify-content: center;
     align-items: center;
     width: 90%;
+    height: auto;
   }
 
   .container-right {
